@@ -1,0 +1,14 @@
+
+
+/*===========Container del texto==============*/
+
+.bloque-texto{
+	padding-top: 62px;
+}
+
+/*==========Texto================*/
+
+.texto{
+	color:#FFF;
+	text-align: justify;
+}

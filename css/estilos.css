@@ -1,0 +1,363 @@
+body{
+    background-color: #1D2228;
+}
+
+.header{
+	border-top: 0px solid #ee3b24;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    z-index: 200;
+}
+
+.navbar-header {
+    z-index: 1000;
+}
+
+.navbar-toggle{
+    padding: 9px 10px;
+}
+
+.header-solid{
+	background: #1D2228;
+}
+ul li a{
+	text-shadow: 1px 1px 1px #000;
+}
+
+ul.navbar-nav > li.active a:hover {
+    color: #FFF;
+}
+
+.iconos-redes{
+	padding-top: 18px;
+
+}
+
+.iconos-redes a:hover{
+	color:#FFF;
+}
+
+.alt{
+	height: 100%;
+	
+}
+
+.anchura-imagen{
+	width: 100%;
+}
+
+.posicion1{
+	position: relative;
+}
+
+.posicion2{
+	position: absolute;
+	bottom:1%;
+	z-index: 1;
+    width: 125px;
+    height: auto
+}
+
+/*===========Imagen de pantalla completa===============*/
+
+#fondo-imagen {
+    background-image: url(/vcamarasa/img/fondo.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    background-position: center;
+}
+
+/*==========Logo================*/
+
+#logo{
+    cursor: pointer;
+}
+
+/*=====================Estilo container bloque de partidos y estadisticas=================================*/
+.estilo-container-datos{
+border-top: solid 1px #FFF;
+border-bottom: solid 1px #FFF;
+}
+
+.facts-num span{
+    font-size: 35px;
+}
+
+
+
+
+/*===============Estilos contador de partidos============================*/
+.contador-estilos{
+    text-transform: uppercase;
+    background: #252b32;
+    padding: 15px 10px 12px;
+    border-bottom: 3px solid #ec1919;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.estilo-logo{
+	max-width: 70px;
+	width: auto;
+}
+
+.estilo-vs{
+    font-size: 24px;
+    text-transform: uppercase;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    z-index: 20;
+
+}
+
+.estilo-equipos{
+	display: table-cell;
+    vertical-align: middle;
+    padding: 15px 0 12px;
+    width: 40%;
+}
+
+.estilo-info{
+	background: #1D2228;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 13px 10px;
+    border-right: solid 1px;    
+    min-height: 71px;
+}
+
+.estilo-canal{
+	
+    font-size: 14px;
+}
+
+.estilo-estadio{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+/*================Estilos estadisticas==============================*/
+
+.facts-num{
+	    height: 90px;
+}
+
+.estilo-estaditicas{
+	background: #1A1E23;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    border-right: solid 1px;
+    min-height: 71px;
+}
+
+
+.estilo-botones-estadisticas{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height: 71px;
+    border-right: 1px solid #394149;
+    cursor: pointer;
+}
+
+.estilo-botones-estadisticas:hover{
+	background: #000 !important;
+}
+
+.facts{
+	padding: 10px 10px 10px;
+}
+
+#capa1{
+	display: none;
+}
+
+#capa2{
+	display: none;
+}
+
+#capa{
+	display: block;
+}
+
+.altura-contador{
+    height: 148px;
+}
+
+
+
+/*================Estilos noticias==============================*/
+
+.estilo-bloque-noticias{
+	padding-right:0;
+}
+
+.fondo{
+	background-color:#1D2228;
+}
+
+.title.classic{
+	color: #FFF;
+}
+
+.borde-derecho{
+	border-right: 1px solid #FFF;
+}
+
+.borde-izquierdo{
+    border-left: 1px solid #FFF;
+}
+
+.padding-bottom{
+	padding-bottom: 30px;
+    
+}
+
+.no-tabla{
+	border-left: 0px solid #e7e7e7;
+}
+
+.titulo-noticias{
+	text-align: left;
+	padding-left: 0px;
+	color: #FFF;
+    width: 100%;
+    overflow: hidden;
+}
+
+.titulo-noticias p {
+	margin: 12px 0 10px;
+	text-align: justify;
+} 
+
+.estilo-multimedia{
+	margin-bottom: 40px;
+}
+
+.blog-date{
+	background-color: #EC1919;
+}
+
+.estilo-fecha{
+    float: right;
+}
+
+.antirow{
+    margin: 0;
+}
+
+/*==============Iframe y imagen de noticias responsive=============*/
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+/*=====================Twitter===================*/
+
+.twitter{
+	padding-top: 10px;
+    padding-left: 0;
+    background-color: rgb(41, 47, 51);
+}
+
+
+.titulo-twitter{
+	padding-bottom: 10px;
+}
+
+.twitter #twitter-widget-0{
+	border-bottom: 1px solid #FFF;
+}
+
+/*================Redes sociales================*/
+
+.redes-sociales{
+	padding-top: 30px;
+    border-top: solid 1px #FFF;
+    padding-bottom: 30px;
+}
+
+.titulo-redes-sociales{
+	padding-bottom: 10px;
+}
+
+.titulo{
+	position: relative;
+    margin: 0;
+    line-height: 32px;
+    display: inline-block;
+    padding-left: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    line-height: 40px;
+    height: 34px;
+}
+
+/*==========Estilos Instagram=======*/
+
+.borde-instagram{
+	border-top: 1px solid #FFF;
+	
+}
+
+.altura-instagram{
+	max-height: 100%;
+}
+
+
+
+/*===========Estilos de partners====================*/
+
+.estilo-partners{
+    width: 100%;
+    height: auto;
+}
+
+.altura-partners{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*==============Media Queries==============================*/
+
+@media (max-width: 991px) { 
+    .estilos-responsive{
+        margin-right: 15px;
+    }
+}
